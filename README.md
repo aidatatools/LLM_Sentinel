@@ -1,4 +1,4 @@
-# NeMoOpenFoldChain
+# NeMoLangChainOllamaGradio
 
 NeMo OpenFold LangChain for NVIDIA GenAI Contest
 
