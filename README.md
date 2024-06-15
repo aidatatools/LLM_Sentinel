@@ -1,6 +1,6 @@
 # NeMoLangChainOllamaGradio
 
-()(NeMo LangChain Ollama Gradio) for NVIDIA GenAI Contest
+**LLM Sentinel** (NeMo LangChain Ollama Gradio) for NVIDIA GenAI Contest
 
 <https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/terms-and-conditions/>
 
