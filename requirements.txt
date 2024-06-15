@@ -1,6 +1,6 @@
 nemoguardrails==0.9.0
 #langchain==0.1.20
 langchain-community==0.0.38
-transformers==4.41.2
 ollama==0.2.1
 gradio==4.36.1
+python-dotenv==1.0.1
