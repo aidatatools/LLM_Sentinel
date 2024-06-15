@@ -1,4 +1,4 @@
-# NeMoLangChainOllamaGradio
+# LLM Sentinel (NeMoLangChainOllamaGradio)
 
 **LLM Sentinel** (NeMo LangChain Ollama Gradio) for NVIDIA GenAI Contest
 
