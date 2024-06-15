@@ -6,12 +6,15 @@ NeMo OpenFold LangChain for NVIDIA GenAI Contest
 
 ## Desired and Required Libraries
 
-- nemo-toolkit 1.23.0
-- langchain 0.2.5
+- nemoguardrails==0.9.0
+- langchain-community==0.0.38
+- ollama==0.2.1
+- gradio==4.36.1
+- python-dotenv==1.0.1
 
 ## Step 1: Set Up Your Environment
 
-1. **Hardware Requirements**: Ensure you have access to NVIDIA GPUs, ideally A100 80GB VRAM, to run the model (Llama3:70b) efficiently. In my case I rent A100 GPU from Digital Ocean Paperspace. Please see the screenshot. Disk Size: At least 200 GB (llama3:70b)-> 40GB, (llama3:8b)-> 5GB
+1. **Hardware Requirements**: Ensure you have access to NVIDIA GPUs, ideally A100 80GB VRAM, to run the model (Llama3:70b) efficiently. In my case I rent A100 GPU from Digital Ocean Paperspace. Please see the screenshot. OS: Ubuntu 22.04 Disk Size: At least 200 GB (llama3:70b)-> 40GB, (llama3:8b)-> 5GB
 
    ![create_a_new_machine](img/create_a_new_machine.png "create_a_new_machine")
 
