@@ -1,6 +1,6 @@
 # NeMoLangChainOllamaGradio
 
-NeMo OpenFold LangChain for NVIDIA GenAI Contest
+()(NeMo LangChain Ollama Gradio) for NVIDIA GenAI Contest
 
 <https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/terms-and-conditions/>
 
@@ -53,7 +53,13 @@ NeMo OpenFold LangChain for NVIDIA GenAI Contest
    curl http://127.0.0.1:11434
    ```
 
-## Step 2: Start the Web UI
+1. Copy .env.example to .env and set the variable(ENV_PROD) to True or False
+
+   ```bash
+   echo 'ENV_PROD=False' > .env
+   ```
+
+## Step 2: Start the Web UI to Interact with Chatbot
 
 1. Start the WebUI in terminal:
 
@@ -64,3 +70,10 @@ NeMo OpenFold LangChain for NVIDIA GenAI Contest
 1. Open a browser, and visit the site with port number:
 
    <http://127.0.0.1:7860>
+
+## Reference
+
+- [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)
+- [LlamaGuard-based Moderation Rails Performance](https://github.com/NVIDIA/NeMo-Guardrails/blob/develop/docs/evaluation/README.md#llamaguard-based-moderation-rails-performance)
+- <https://github.com/NVIDIA/NeMo-Guardrails>
+-
