@@ -1,0 +1,10 @@
+filters:
+  - type: regex
+    pattern: "(?i)illegal|banned|prohibited"
+    action: block
+  - type: keyword
+    words:
+      - "illegal"
+      - "banned"
+      - "prohibited"
+    action: block
