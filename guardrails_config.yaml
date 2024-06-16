@@ -1,10 +1,19 @@
-filters:
-  - type: regex
-    pattern: "(?i)illegal|banned|prohibited"
-    action: block
-  - type: keyword
-    words:
-      - "illegal"
-      - "banned"
-      - "prohibited"
-    action: block
+
+models:
+  - name: main_model
+    type: llm
+    provider: ollama
+    model: llama3:8b
+    engine: ollama
+
+user_messages:
+  greeting: ["Hello!", "Hi!", "How are you?"]
+
+bot_messages:
+  greeting_response: ["I'm good, thank you! How can I help you today?"]
+
+flows:
+  - id: greet_user
+    elements:
+      - action: user_says_greeting
+      - action: bot_says_greeting_response
