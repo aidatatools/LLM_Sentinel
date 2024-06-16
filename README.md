@@ -28,8 +28,8 @@ It's tested on Python 3.9 and above on macOS, and Ubuntu Linux
 
    ```bash
    cd ~
-   git clone git@github.com:aidatatools/NeMoLangChainOllamaGradio.git
-   cd NeMoLangChainOllamaGradio
+   git clone https://github.com/aidatatools/LLM_Sentinel.git
+   cd LLM_Sentinel
    ```
 
 1. **venv**:
@@ -37,7 +37,7 @@ It's tested on Python 3.9 and above on macOS, and Ubuntu Linux
    Ensure you have Python 3.10 or later installed.
 
    ```bash
-   cd ~/NeMoLangChainOllamaGradio
+   cd ~/LLM_Sentinel
    python3.10 -m venv venv
    source venv/bin/activate
    ```
@@ -78,4 +78,4 @@ It's tested on Python 3.9 and above on macOS, and Ubuntu Linux
 - [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)
 - [LlamaGuard-based Moderation Rails Performance](https://github.com/NVIDIA/NeMo-Guardrails/blob/develop/docs/evaluation/README.md#llamaguard-based-moderation-rails-performance)
 - <https://github.com/NVIDIA/NeMo-Guardrails>
--
+- [Project description for LLM Sentinel](https://medium.com/aidatatools/llm-sentinel-a-project-which-can-make-the-llm-chatbot-safer-250e40b110fe)
