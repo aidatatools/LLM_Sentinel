@@ -9,7 +9,7 @@
 - nemoguardrails==0.9.0
 - langchain-community==0.0.38
 - ollama==0.2.1
-- gradio==4.36.1
+- gradio==4.42.0
 - python-dotenv==1.0.1
 
 It's tested on Python 3.9 and above on macOS, and Ubuntu Linux
